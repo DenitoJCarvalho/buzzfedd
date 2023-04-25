@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --comicNeue: 'Comic Neue', cursive;
+  --roboto: 'Roboto', sans-serif;
+
+  --dark-blue-to-dark-purple: rgba(31, 17, 71, .9);
+  --blue-to-purple: rgba(66, 36, 217, 1);
+  --purple: rgba(100, 78, 210, 1);
+  --dark-purple: rgba(33, 2, 57, 1);
+  --white: rgba(246, 254, 250, 1);
+  --green: rgba(24, 171, 41, 1);
+  --light-green: rgba(92, 191, 42, 1);
+  --graphite: rgba(44, 51, 51, 1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: var(--comicNeue), var(--roboto);
+}
+
+:is(body, img) {
+  width: 100%;
+  max-width: 1600px;
+}
+
+body {
+  background-color: var(--dark-blue-to-dark-purple);
+}
+
+img {
+  height: auto;
+}
